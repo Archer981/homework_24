@@ -16,4 +16,4 @@ def sort_query(data, query='asc'):
 
 
 def limit_query(data, query):
-    return [line for line in data][:query]
+    return [line for line in data][:int(query)]
